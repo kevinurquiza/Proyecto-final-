@@ -1,0 +1,109 @@
+@import '_colors.scss';
+@import '_style2.scss';
+
+body{
+    background-color:whitesmoke;
+}
+h2{
+    background-color: white;
+    color: $colorfond;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    border: 2px transparent black;
+}
+.inicio{
+    height: 444px;
+    width: 710px;
+    border: 1px solid rgb(233, 134, 233);
+    margin-left: 22%;
+}
+.resaltado{
+    border: 2px solid rgb(233, 134, 233);
+    color:black;
+    background-color:white;
+    padding: 50px;
+    font-family:verdana;
+    border-radius: 200px;
+                                 .p{
+                                      color:black;
+                                      font-size: 23px;
+                                      font-family:'Bebas Neue', cursive;
+    }
+                                .p1{
+                                        color:black;
+                                        font-size: 23px;
+                                        font-family:'Bebas Neue', cursive;
+                                        text-decoration: underline;
+}
+   
+}
+
+@mixin circle ($width){
+width:$width;
+height:$width;
+border-radius: 100%;
+background:	rgb(233, 134, 233);
+}
+
+.bigCircle{
+    @include circle(100px);
+}
+
+.smallCircle{
+    @include circle(50px);
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+    padding:20px ;
+    color: black;
+    background-color: #edff21;
+    border: 1px solid whitesmoke;
+    border-radius:30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    &:hover{
+        font: 35px 'Bebas Neue' ;
+    }
+    /**
+    .pdiv{
+        color: lime;
+        background-color:purple;
+        padding: 50px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    **/
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: $colorsecund;
+    .container-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+   }
+   .boxfooter{
+       display: flex;
+       flex-direction: column;
+       padding: 40px;
+   }
+    .boxfooter.logo{
+        width: 100px;
+    }          
+    .box{
+        margin-bottom: 30px;
+        color: #00304E;
+        font-weight: 700;
+    }
+    a{       margin-top: 10px;
+           color: #747474;
+           font-weight: 600;
+        }
+}

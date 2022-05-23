@@ -1,0 +1,140 @@
+.estetica {
+  height: 300px;
+  width: 400px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h2 {
+  background-color: white;
+  color: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px transparent black;
+}
+
+.inicio {
+  height: 444px;
+  width: 710px;
+  border: 1px solid #e986e9;
+  margin-left: 22%;
+}
+
+.resaltado {
+  border: 2px solid #e986e9;
+  color: black;
+  background-color: white;
+  padding: 50px;
+  font-family: verdana;
+  border-radius: 200px;
+}
+
+.resaltado .p {
+  color: black;
+  font-size: 23px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.resaltado .p1 {
+  color: black;
+  font-size: 23px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: underline;
+}
+
+.bigCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #e986e9;
+}
+
+.smallCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #e986e9;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  color: black;
+  background-color: #edff21;
+  border: 1px solid whitesmoke;
+  border-radius: 30px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  /**
+    .pdiv{
+        color: lime;
+        background-color:purple;
+        padding: 50px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    **/
+}
+
+.btn:hover {
+  font: 35px 'Bebas Neue';
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: chartreuse;
+}
+
+footer .container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+footer .boxfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+footer .boxfooter.logo {
+  width: 100px;
+}
+
+footer .box {
+  margin-bottom: 30px;
+  color: #00304E;
+  font-weight: 700;
+}
+
+footer a {
+  margin-top: 10px;
+  color: #747474;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
